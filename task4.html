@@ -141,10 +141,10 @@
         <a href="#" class="button3">注册</a></div>
     <div class="white0"></div>
     <div class="area1"> <i class="p"></i><img src="sx.png" class="shuxian">
-        <input type="text"  maxlength="16" style="height: 50px; width: 100%;border: 0px" placeholder="请输入手机号" class="texta"  ></div>
+        <input type="text"  maxlength="16"  onkeyup="this.value=this.value.replace(/[^\d]/g,'')"  style="height: 50px; width: 100%;border: 0px" placeholder="请输入手机号" class="texta"  ></div>
     <div class="white"></div>
     <div class="area2"><i class="p2"></i></i><img src="sx.png" class="shuxian">
-        <input type="password" maxlength="10" style="height: 50px;width: 100%;border: 0px" placeholder="请输入密码" class="textb"></div>
+        <input type="password"  maxlength="10"   onkeyup="this.value=this.value.replace(/[^\d]/g,'')"   style="height: 50px;width: 100%;border: 0px" placeholder="请输入密码" class="textb"></div>
     <div class="white2"></div>
     <input type="submit" class="button4" value="登陆">
     <div class="bottom"><a href="#"style="float: right" class="forget" >忘记密码？</a> </div>
