@@ -28,20 +28,21 @@
             font-size: 1.2em;
             padding-left: 10px;
             position: absolute;
-            padding-top: 13px;
+            padding-top: 12px;
         }
         .button2{
             color: white;
             background-color: #5fc0cd;
             text-decoration: none;
-            padding-left: 50%;
+            left: 45%;
             font-size: 1.2em;
-            padding-top: 13px;
+            padding-top: 1px;
+            position: absolute;
 
 
 
         }
-        .buttonbox  {
+        .buttonbox  {  height: 25px;
             padding-top: 13px;
             padding-bottom: 20px;
         }
@@ -124,10 +125,10 @@
              color: deepskyblue;
             padding-right: 10px;
         }
-        .shuxian{
+        .shuxian{ background-color: #eff0f4;
             position: absolute;
             left: 44px;
-            width: 3px;
+            width: 2px;
             height: 40px;
             top: 3px;
         }
@@ -140,13 +141,13 @@
     <div class="buttonbox"><a href="#" class="button2">登录</a>
         <a href="#" class="button3">注册</a></div>
     <div class="white0"></div>
-    <div class="area1"> <i class="p"></i><img src="sx.png" class="shuxian">
+    <div class="area1"> <i class="p"></i><div class="shuxian"></div>
         <input type="text"  maxlength="16"  onkeyup="this.value=this.value.replace(/[^\d]/g,'')"  style="height: 50px; width: 100%;border: 0px" placeholder="请输入手机号" class="texta"  ></div>
     <div class="white"></div>
-    <div class="area2"><i class="p2"></i></i><img src="sx.png" class="shuxian">
+    <div class="area2"><i class="p2"></i></i><div class="shuxian"></div>
         <input type="password"  maxlength="10"   onkeyup="this.value=this.value.replace(/[^\d]/g,'')"   style="height: 50px;width: 100%;border: 0px" placeholder="请输入密码" class="textb"></div>
     <div class="white2"></div>
-    <input type="submit" class="button4" value="登陆">
+    <input type="submit" class="button4" value="登录">
     <div class="bottom"><a href="#"style="float: right" class="forget" >忘记密码？</a> </div>
 </div>
 </body>
